@@ -10,6 +10,4 @@ public class Circulo implements IFigura{
 		System.out.println("el area del circulo es: "+Math.PI*Math.pow(radio,2));
 		
 	}
-
-
 }
