@@ -68,7 +68,7 @@ System.out.println(objetosNavidad.get(i));
 }
 
 
-//si esta arbol colocar mensaje "encontramos arbol"
+//si esta arbol colocar mensaje "encontramos arbol "
 Iterator<String> iterator = objetosNavidad.iterator();
 while(iterator.hasNext())
 {
