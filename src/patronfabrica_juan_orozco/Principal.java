@@ -5,13 +5,13 @@ public class Principal {
 	public static void main(String[] args) {
 		FactoryFigura figura = new FactoryFigura();
 		
-		IFigura fg1 = figura.getFigura("Cuadrado");
+		IFigura fg1 = figura.getFigura("Circulo");
 		fg1.area();
 		
 		IFigura fg2 = figura.getFigura("Rectangulo");
 		fg2.area();
 		
-		IFigura fg3 = figura.getFigura("Circulo");
+		IFigura fg3 = figura.getFigura("Rectangul");
 		fg3.area();
 
 	}
