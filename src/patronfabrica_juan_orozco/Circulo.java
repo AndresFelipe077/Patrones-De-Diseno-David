@@ -7,7 +7,7 @@ public class Circulo implements IFigura{
 	@Override
 	public void area() {
 
-		System.out.println("el area del circulo es: "+Math.PI*Math.pow(radio,2));
+		System.out.println("El area del circulo es: "+Math.PI*Math.pow(radio,2));
 		
 	}
 }
