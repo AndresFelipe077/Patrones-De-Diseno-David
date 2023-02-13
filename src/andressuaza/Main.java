@@ -95,8 +95,12 @@ objetosNavidad.add(objetosNavidad.size()-1, "REYES MAGOS");
 //Mostrar array
 for(int i = 0; i < objetosNavidad.size(); i++)
 {
-System.err.println(objetosNavidad.get(i));
-System.out.println(i);
+	public class Encender {
+
+		public void encender() {
+			System.out.println("encendiendo....");
+		}
+	}
 }
 
 
