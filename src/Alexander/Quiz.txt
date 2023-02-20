@@ -1,0 +1,81 @@
+package ALE2;
+
+public class ALEX {
+
+	public static double amigo (double num1, double num2) {
+		int cont1=0, cont2=0;
+		for(int i =1;i< num1;i++) {
+			
+			if (num1%i==0) {
+				cont1=cont1+i;
+
+			}
+		}
+		for (int k = 1;k < num2;k++) {
+			if(num2%k==0) {
+				cont2 = cont2+k;
+			}
+		}
+
+			if (num1==cont2 && num2==cont1) {
+				return 1;
+			}
+			else
+			return 0;
+	}
+			public static void main(String []args) {
+				System.out.println(+amigo(220,284));
+	}}
+
+//
+package DDD;
+
+public class JAVA {
+
+	public static void main(String[] args) {
+		
+
+		
+		for(int i=2;i<=20; i+=2) {
+			
+			System.out.println( "numero" +i);
+
+	}
+	}
+}
+//
+package primos;
+
+public class primos {
+
+	
+		
+		public static void primo
+		(int num) {
+			
+			int cont=0;
+			
+			for(int i=1; i<=num;i++){
+				
+				if(num%i==0) {
+					
+					cont++;
+				}
+			}
+			
+			if(cont==2) {
+				System.out.println("es un numero primo");
+			}
+			else
+				System.out.println("no es un numero primo");
+			
+		}
+		
+		
+		
+	
+
+		}
+
+
+

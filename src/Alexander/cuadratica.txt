@@ -1,0 +1,114 @@
+package cuadra;
+
+public class Raiz {
+
+	
+	
+	private int a;
+	private int b;
+	private int c;
+
+	public Raiz () {
+	}
+	public Raiz(int a, int b, int c) {
+	super();
+	this.a = a;
+	this.b = b;
+	this.c = c;
+	}
+
+	//getters y setters
+	public int getA() {
+	return a;
+	}
+	public void setA(int a) {
+	this.a = a;
+	}
+	public int getB() {
+	return b;
+	}
+	public void setB(int b) {
+	this.b = b;
+	}
+	public int getC() {
+	return c;
+	}
+	public void setC(int c) {
+	this.c = c;
+	}
+	//metodos y funciones
+
+
+	public double discriminante () {
+
+	return (this.b*this.b)-4*this.a*this.c; 
+
+	}
+
+	public boolean tieneRices () {
+	if (this.discriminante()>= 0); {
+		return true;
+		
+	}
+				
+	}
+	
+	 public void ObtenerRaiz(){
+	        double p1= (this.b*this.b)-4*this.a*this.c;
+	        double x1=0;
+	        if(this.discriminante()==0){
+	        x1=(-b+Math.sqrt(p1))/(2*a);
+	        
+	        System.out.println("resultado de la cuadratica es : " +x1);
+	        
+	        
+	           public void calcular(){
+	               
+	           double x1=0;
+	           double x2=0;
+	           double p1= (this.b*this.b)-4*a*c;
+	           if(this.tieneRices()== true){
+	                   x1=(-b+Math.sqrt(p1))/(2*a);
+	                   x2=(-b-Math.sqrt(p1))/(2*a);
+	                   
+	                   System.out.println("el resultado de la cuadratica para X1 es: "+x1);
+	                   System.out.println("el resultado de la cuadratica para x2 es: "+x2);
+	               }
+	               if(this.discriminante()<0){
+	                   System.out.println("no tiene soluciuones ");
+	
+	
+	
+	
+	
+	
+	
+	        }
+	 }
+}	 
+__________________________________________________________________________________________________________________________________________
+
+
+package cuadra;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		
+		Raiz r1 = new Raiz (-1,4,3);
+		System.out.println(r1.getA());
+		System.out.println(r1.getB());
+		System.out.println(r1.getC());
+
+
+		System.out.println(r1.discriminante()); 
+		
+		
+		System.out.println(r1.discriminante());
+		r1.calcular();
+		r1.ObtenerRaiz();
+	}
+
+}
+

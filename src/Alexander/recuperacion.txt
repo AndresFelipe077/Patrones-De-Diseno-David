@@ -1,0 +1,28 @@
+package recuperacion;
+
+public class recu {
+
+	
+		
+	    public static void divisor (int divi){
+	        int cont =0;
+	        for(int k =1;k<=divi;k++){
+	           
+	            if (divi%k==0){
+	                System.out.println("sus divisores son: "+k);
+	                cont++;
+	                if (cont==3){
+	                    System.out.println("3cer divisor es: "+k);
+	                }
+	            }    
+	        }
+	        
+	    }
+	    public static void main(String[] args) {
+	        divisor(15);
+	  
+	
+	    }
+		
+	}
+
